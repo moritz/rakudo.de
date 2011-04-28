@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de">
+  <head>
+	<link rel="icon" href="/favicon.ico" type="favicon.ico" />
+    <meta name="generator" content="vim" />
+    <meta name="author" content="Moritz Lenz" />
+    <meta name="language" content="de" />
+    <title>Rakudo - eine Perl 6-Implementierung</title>
+
+  </head>
+
+  <body>
+  <h1>Rakudo - ein Perl 6-Compiler</h1>
+
+  <p>Rakudo ist ein auf <a href="http://perl-6.de/parrot">Parrot</a>
+  basierender <a href="http://perl-6.de/">Perl 6</a>-Compiler.</p>
+
+  <p>Die offizielle Homepage ist <a
+      href="http://rakudo.org/">rakudo.org</a>.</p>
+
+  <p><a href="http://rakudo.spreadshirt.net/de/DE/Shop/">Rakudo und Perl 6
+  T-Shirts</a></p>
+
+    <p>Perl 6 Module findet man im <a href="http://modules.perl6.org/">Perl 6
+        modules directory</a>.</p>
+  </body>
+</html>

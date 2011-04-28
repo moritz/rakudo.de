@@ -1,0 +1,20 @@
+Options  +FollowSymLinks +Includes +Indexes +MultiViews
+AddLanguage en .en
+AddLanguage de .de
+
+LanguagePriority en de
+ForceLanguagePriority Prefer Fallback
+DirectoryIndex index
+
+AddType 'text/html; charset=UTF-8' html
+Header Set Content-Script-Type "text/javascript"
+
+Redirect permanent /testneeded http://rt.perl.org/rt3/Search/Results.html?Query=Queue='perl6'+AND+(Status='open'+OR+Status='new'+OR+Status='stalled')+AND+'CF.{Tag}'+LIKE+'testneeded'
+Redirect permanent /testsneeded http://rt.perl.org/rt3/Search/Results.html?Query=Queue='perl6'+AND+(Status='open'+OR+Status='new'+OR+Status='stalled')+AND+'CF.{Tag}'+LIKE+'testneeded'
+Redirect permanent /needstest http://rt.perl.org/rt3/Search/Results.html?Query=Queue='perl6'+AND+(Status='open'+OR+Status='new'+OR+Status='stalled')+AND+'CF.{Tag}'+LIKE+'testneeded'
+Redirect permanent /needtest http://rt.perl.org/rt3/Search/Results.html?Query=Queue='perl6'+AND+(Status='open'+OR+Status='new'+OR+Status='stalled')+AND+'CF.{Tag}'+LIKE+'testneeded'
+
+Redirect permanent /testcommitted http://rt.perl.org/rt3/Search/Results.html?Query=Queue='perl6'+AND+(Status='open'+OR+Status='new'+OR+Status='stalled')+AND+'CF.{Tag}'+LIKE+'testcommitted'
+Redirect permanent /testavailable http://rt.perl.org/rt3/Search/Results.html?Query=Queue='perl6'+AND+(Status='open'+OR+Status='new'+OR+Status='stalled')+AND+'CF.{Tag}'+LIKE+'testcommitted'
+Redirect permanent /hastest http://rt.perl.org/rt3/Search/Results.html?Query=Queue='perl6'+AND+(Status='open'+OR+Status='new'+OR+Status='stalled')+AND+'CF.{Tag}'+LIKE+'testcommitted'
+Redirect permanent /hastests http://rt.perl.org/rt3/Search/Results.html?Query=Queue='perl6'+AND+(Status='open'+OR+Status='new'+OR+Status='stalled')+AND+'CF.{Tag}'+LIKE+'testcommitted'

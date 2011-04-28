@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de">
+  <head>
+    <meta name="generator" content="vim" />
+    <meta name="author" content="Moritz Lenz" />
+    <meta name="language" content="en" />
+	<link rel="icon" href="/favicon.ico" type="favicon.ico" />
+    <title>Rakudo - A Perl 6 Compiler</title>
+
+  </head>
+
+  <body>
+  <h1>Rakudo - a Perl 6 Compiler</h1>
+
+  <p>Rakudo is a <a href="http://www.parrot.org/">Parrot</a> based
+  Compiler for <a href="http://perl6.org/">Perl 6</a>.</p>
+
+  <p>The official homepage is at <a
+  href="http://rakudo.org/">rakudo.org</a>.</p>
+
+  <p>Rakudo and Perl 6 T-shirts are available from <a
+  href="https://rakudo.spreadshirt.com/">spreadshirt</a>, <a
+  href="http://cafepress.com/rakudo">Cafepress</a> and <a
+  href="http://www.zazzle.com/rakudo">Zazzle</a>.</p>
+
+  <h2>Progress</h2>
+
+  <p>Rakudo uses a test suite to ensure quality and track regressions. It can
+  also be used for tracking progress. The chart below shows the number of
+  tests over time, most interestingly the number of passing tests.</p>
+
+  <p><img width="800" height="500" alt="Rakudos Tests" src="/progress.png"
+  /></p>
+
+  <p>Skip tests are those that rakudo can't parse yet, or dies during
+  execution. Todo are those that run without dying, but produced the
+  wrong result. The gray curve is the (approximated) total number of
+  tests in the official test suite.</p>
+
+  <p>The same chart, this time done with Gnuplot and without stacking the
+  values:</p>
+
+  <p><img width="640" height="480" alt="Rakudo's tests - not stacked"
+  src="/rakudo-progress-nonstacked.png" /></p>
+
+  <p>Modules for Rakudo and other Perl 6 compilers can be found in the <a
+      href="http://modules.perl6.org/">Perl 6 modules directory</a>.</p>
+
+  </body>
+</html>
