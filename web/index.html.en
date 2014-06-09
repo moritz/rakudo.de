@@ -14,8 +14,7 @@
   <body>
   <h1>Rakudo - a Perl 6 Compiler</h1>
 
-  <p>Rakudo is a <a href="http://www.parrot.org/">Parrot</a> based
-  Compiler for <a href="http://perl6.org/">Perl 6</a>.</p>
+  <p>Rakudo is a Compiler for <a href="http://perl6.org/">Perl 6</a>, with backends for the <a href="http://moarvm.org/">MoarVM</a> and the <a href="https://en.wikipedia.org/wiki/Java_virtual_machine">Java Virtual Machine.</a></p>
 
   <p>The official homepage is at <a
   href="http://rakudo.org/">rakudo.org</a>.</p>
@@ -27,6 +26,8 @@
 
   <p>Modules for Rakudo and other Perl 6 compilers can be found in the <a
       href="http://modules.perl6.org/">Perl 6 modules directory</a>.</p>
+
+  <p>Sources for this web page can be found <a href="https://github.com/perl6/rakudo.de/">on github.</a></p>
 
   </body>
 </html>

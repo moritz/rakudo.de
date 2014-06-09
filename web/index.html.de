@@ -7,15 +7,14 @@
     <meta name="generator" content="vim" />
     <meta name="author" content="Moritz Lenz" />
     <meta name="language" content="de" />
-    <title>Rakudo - eine Perl 6-Implementierung</title>
+    <title>Rakudo - ein Perl 6 Compiler</title>
 
   </head>
 
   <body>
   <h1>Rakudo - ein Perl 6-Compiler</h1>
 
-  <p>Rakudo ist ein auf <a href="http://perl-6.de/parrot">Parrot</a>
-  basierender <a href="http://perl-6.de/">Perl 6</a>-Compiler.</p>
+  <p>Rakudo ist ein <a href="http://perl-6.de/">Perl 6</a>-Compiler mit Backends für <a href="http://moarvm.org/">MoarVM</a> und die <a href="https://de.wikipedia.org/wiki/Java_Virtual_Machine">Java Virtual Machine.</a></p>
 
   <p>Die offizielle Homepage ist <a
       href="http://rakudo.org/">rakudo.org</a>.</p>
@@ -25,5 +24,8 @@
 
     <p>Perl 6 Module findet man im <a href="http://modules.perl6.org/">Perl 6
         modules directory</a>.</p>
+
+
+    <p>(Der Quellcode dieser Webseite befindet sich auf <a href="https://github.com/perl6/rakudo.de/">github.</a></p>
   </body>
 </html>
